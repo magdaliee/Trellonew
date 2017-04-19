@@ -1,14 +1,9 @@
-@charset "utf-8";
-/* CSS Document */
-
-@import url('https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto|Oswald|Lato');
 
 body {
-  background-color: #02132d;
+  background-color: #029367;
 }
 
 h1 {
-  font-family: "Reem Kufi", sans-serif;
   color: #ffa78c;
   text-align: center;
   margin-top: 100px;
@@ -17,7 +12,6 @@ h1 {
 
 button {
   background-color: #ffd0c1;
-  font-family: "Oswald", sans-serif;
   color: #02132d;
   border-radius: 5px;
   font-size: 1.2em;
@@ -29,7 +23,6 @@ button {
 
 .column-title {
   color: #ffafa3;
-  font-family: Lato, sans-serif;
   float: left;
   width: 135px;
 }
@@ -54,7 +47,6 @@ button {
   width: 300px;
   height: 50px;
   color: #333;
-  font-family: "Lato", sans-serif;
   background-color: #fc8c7b;
   font-weight: 900;
 }
@@ -72,8 +64,7 @@ button {
 .card-description {
   float: left;
   color:#ffd0c9;
-  font-family: Lato, sans-serif;
-  font-size: 1.1em;
+  font-size: 18px;
   white-space: normal;
   width: 200px;
 }
@@ -104,18 +95,17 @@ button {
 }
 
 .column-card-list {
-  min-height: 59px;
+  min-height: 60px;
 }
 
 ul {
-  min-height: 59px;
-  -webkit-padding-start: 20px;
+  min-height: 60px;
 }
 
 p {
   margin: 0;
 }
 
-.column:nth-of-type(3n + 1) {
-    clear: both;
+.column{
+    clear: right;
 }
